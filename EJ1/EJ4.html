@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+
+  var randomNumber1 = Math.floor(Math.random() * 1);
+
+  if (randomNumber1 == 1) {
+    document.querySelector("h1").innerHTML = "Sol";
+				}else if(randomNumber1 == 0){
+          document.querySelector("h1").innerHTML = "Aguila";
+        }
+}
+
+</script>
+</head>
+<body>
+
+<h2>Aguila o Sol</h2>
+
+<p id="demo">Presiona el boton para sacar Aguila o Sol</p>
+
+<button type="button" onclick="myFunction()"> Presiona Aqui </button>
+<br>
+<br>
+<script>
+document.write(5 + 6);
+</script>
+
+</body>
+</html> 
